@@ -1,0 +1,68 @@
+body {
+    background-image: url("../img/3.png");
+    background-repeat: repeat;
+    color: #f2f2f2;
+    text-align: center;
+}
+.pic {
+    margin: 40px auto 20px auto;
+}
+h2{
+    font-size: 2em;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+}
+img {
+    border-radius: 100px;
+    border: 1px solid #2c536c;
+    box-shadow: 0 0 10px white;
+    margin: 5px;
+}
+img:hover{
+    transition: 0.6s;
+    transform: scale(1.05);
+}
+
+.content{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(24, 33, 52, 0.7);
+    margin: 200px auto 0 auto;
+    text-align: center;
+    padding: 40px  20px;
+    border-radius: 10px;
+    box-shadow: 0 20px 28px rgba(0,0,0,0.5), 0 14px 20px rgba(0,0,0,0.4)
+}
+.forInput{
+    margin-top: 350px;
+}
+
+.input{
+    text-align:center;
+    text-decoration: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    font-size: 50px;
+    color: rgb(0, 0, 0, 0.55);
+    font-weight: bolder;
+    text-shadow: 1px 13px 5px #bfbfbf, 0 0 9px rgba(0,0,0,0.34);
+}
+
+.output{
+    padding: 15px auto 15px auto;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: #8c8c8c;
+    color: #f2f2f2;
+    border: none;
+    border-bottom: 2px solid #333333;
+    cursor: pointer;
+}
+.output:hover{
+    transition: 0.5s;
+    background: #fff;
+    color: #2c536c;
+}
